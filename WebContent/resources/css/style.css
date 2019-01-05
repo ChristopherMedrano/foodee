@@ -1,0 +1,136 @@
+html{
+	font-size: 1rem;
+	
+}
+
+body{
+	font-family: 'Happy Monkey', cursive;
+	color: #636e72;
+}
+
+.navbar-brand{
+	font-family: 'Great Vibes', cursive;
+	font-size: 3rem;
+	color: #ffeaa7 !important;
+}
+
+.navbar{
+	background-color: #008F73 !important;
+}
+
+.logo-font{
+	font-family: 'Great Vibes', cursive;
+}
+
+.oj-font{
+	color: #ffeaa7 !important;
+}
+
+.white-font{
+	color: #dfe6e9 !important;
+}
+
+.btn-outline-primary{
+	color: #ffeaa7;
+	border-color:white;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn, .btn:active, .btn:hover{
+	color: #fff;
+	background-color: #e17055;
+	border-color: #e17055;
+}
+
+.jumbotron{
+	background-color: transparent;
+	/* ${pageContext.request.contextPath}/resources/media/foodee-header.jpg */
+}
+
+.home-header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://2h0uvg25cp471mr7n0oigg6z-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/why-are-dog-foods-made-with-vegetables.jpg");
+
+}
+/* Header */
+#header{
+	color: #e17055;
+	padding: .5rem 0px;
+}
+
+.h2, h2{
+	font-size: 1.5rem;
+}
+
+.h3, h3{
+	font-size: 1.25rem;
+	color: #e17055;
+}
+/* Errors */
+.error{
+	color: red;
+}
+/* Bread crumb */
+.breadcrumb{
+	background-color: white;
+}
+
+.breadcrumb a{
+	color: #e17055;
+}
+
+#footer{
+	text-align: center;
+}
+
+
+.full-ht{
+	height: 100%;
+}
+
+footer{
+	margin-top: 50px;
+	color: white;
+	background-color: #2d3436;
+	padding: 2rem 0px;
+}
+
+footer p{
+	margin-bottom: 0px;
+}
+
+/* Side navigation */
+.side-nav, .side-nav li a{
+	color: #e17055;
+}
+
+
+/* Edit Symbol */
+.fa-edit{
+	color: #00cec9;
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden !important;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
