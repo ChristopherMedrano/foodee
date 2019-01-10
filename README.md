@@ -11,14 +11,22 @@ Foodee is a Java web application. This application allows users to log and keep 
 * JDBC
 * Oracle
 
-## Front end: HTML, CSS, JavaScript, Bootstrap
-IDE: Eclipse
-Hosting: AWS
+### Front end: 
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
 
+### IDE: 
+* Eclipse
+
+### Hosting: 
+* AWS
 
 ## Project Management
-Software: JIRA
-Methodologies: Scrum / Agile
+* JIRA
+* Scrum / Agile
+* [Maven](https://maven.apache.org/) - Dependency Management
 
 Contact
 Project Link: 
