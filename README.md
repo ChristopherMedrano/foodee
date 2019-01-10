@@ -35,4 +35,4 @@ Foodee is a Java web application. This application allows users to log and keep 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-I was inspired for this idea by applications I use on a regular basis: Myfitnesspal and LoseIt. I decided to make my own to showcase my skills as a developer and what I learned from my Java Developer training. 
+I was inspired by applications I use on a regular basis: Myfitnesspal and LoseIt.
