@@ -5,11 +5,13 @@ Foodee is a Java web application. This application allows users to log and keep 
 ## Build
 ### Back end: 
 * Java 
-* Spring MVC
+* Spring Framework
 * Hibernate
-* JSP
+* JSP 
+* JSTL
 * JDBC
 * Oracle
+* XML
 
 ### Front end: 
 * HTML
