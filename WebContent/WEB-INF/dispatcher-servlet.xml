@@ -39,8 +39,8 @@
 	<bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
 		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
 		<property name="jdbcUrl" value="jdbc:oracle:thin:@myoracledb.ce42myeoxezo.us-east-1.rds.amazonaws.com:1521:ORCL" />
-		<property name="user" value="cmedrano625" />
-		<property name="password" value="1Hughjass!" />
+		<property name="user" value="" />
+		<property name="password" value="" />
 		
 		<!-- Connection pool settings -->
 		<property name="minPoolSize" value="3" />
