@@ -47,25 +47,25 @@
 							<!-- Text input-->
 							<div class="form-group">
 							  <label for="firstName">First name:</label>  
-							  <form:input id="firstName" path="firstName" placeholder="first name" class="form-control"  />
+							  <form:input id="firstName" path="firstName" placeholder="first name" class="form-control"  maxlength="20"/>
 							  <form:errors path="firstName" cssClass="error" />
 							</div>
 							<!-- Text input-->
 							<div class="form-group">
 							  <label for="lastName">Last name:</label>  
-							  <form:input id="lastName" path="lastName" placeholder="last name" class="form-control" />
+							  <form:input id="lastName" path="lastName" placeholder="last name" class="form-control" maxlength="20"/>
 							  <form:errors path="lastName" cssClass="error" />
 							</div>
 							<!-- Password input-->
 							<div class="form-group">
 							  <label for="password">Password:</label>
-							    <form:input id="password" path="password" type="password" placeholder="password" class="form-control" />
+							    <form:input id="password" path="password" type="password" placeholder="password" class="form-control" maxlength="20"/>
 							  	<form:errors path="password" cssClass="error" />
 							</div>
 							<!-- Password input-->
 							<div class="form-group">
 							  <label for="confirmPassword">Confirm Password:</label>
-							    <input id="confirmPassword" name="confirmPassword" type="password" placeholder="confirm password" class="form-control" />
+							    <input id="confirmPassword" name="confirmPassword" type="password" placeholder="confirm password" class="form-control" maxlength="20"/>
 							</div>
 							<!-- Button -->
 							<input type="submit" class="btn btn-primary" value="Submit" />
